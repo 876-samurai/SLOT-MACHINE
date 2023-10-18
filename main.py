@@ -71,6 +71,7 @@ def print_slot_machine(columns):
 
 def deposit():
     while True:
+        print("Welcome to Crystal's Slot Machine.")
         amount = input("What would you like to deposit? $")
         if amount.isdigit():
             amount = int(amount)
